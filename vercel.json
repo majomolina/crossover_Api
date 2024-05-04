@@ -1,16 +1,11 @@
 {
-    "version": 1,
-    "name": "travel_wishlist",
-    "builds": [
-      {
-        "src": "index.js", 
-        "use": "@vercel/node" 
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.js" 
-      }
-    ]
-  }
+        "version": 2,
+        "name": "travel_wishlist",
+        "builds": [
+            { "src": "index.js", "use": "@now/node" }
+        ],
+        "routes": [
+            { "src": "/(.*)", "dest": "index.js" }
+        ]
+}
+  
