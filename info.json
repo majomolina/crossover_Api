@@ -1,0 +1,571 @@
+{
+    "_id": "6635f84f69cc71afc607419e",
+    "name": "The Coffee Bar",
+    "image_URL": "https://picsum.photos/seed/picsum/200/300",
+    "location": {
+      "address": "123 Brew Lane",
+      "city": "Coffeeville",
+      "state": "CA",
+      "zip_code": "90001",
+      "_id": "6635f85e3f49cfa52ce58ec5"
+    },
+    "tags": [
+      "Cafe",
+      "Bakery"
+    ],
+    "rating": 4.5,
+    "reviews": [
+      {
+        "id": "r1",
+        "user_id": "u100",
+        "text": "Great atmosphere and wonderful coffee. Highly recommend the espresso!",
+        "rating": 5
+      },
+      {
+        "id": "r2",
+        "user_id": "u101",
+        "text": "Love the fresh pastries every morning. A perfect spot to relax or work.",
+        "rating": 4
+      }
+    ],
+    "review": []
+  };
+
+  
+    {
+      "id": "b2",
+      "name": "Pasta Central",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "456 Noodle Street",
+        "city": "Pastaville",
+        "state": "NY",
+        "zip_code": "10001"
+      },
+      "tags": ["Italian", "Dine-In"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r3",
+          "user_id": "u102",
+          "text": "The spaghetti carbonara is a must-try! Cozy ambiance and friendly staff.",
+          "rating": 5
+        },
+        {
+          "id": "r4",
+          "user_id": "u103",
+          "text": "Good selection of wines to complement your meal. The lasagna felt a bit too cheesy for my taste.",
+          "rating": 3
+        }
+      ]
+    }
+
+    {
+      "id": "b3",
+      "name": "Burger City",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "789 Burger Blvd",
+        "city": "Sunnyvale",
+        "state": "CA",
+        "zip_code": "94087"
+      },
+      "tags": ["Fast Food", "Burgers"],
+      "rating": 3.5,
+      "reviews": [
+        {
+          "id": "r5",
+          "user_id": "u104",
+          "text": "Quick service and the burgers were delicious. The fries could have been crispier, but still good.",
+          "rating": 4
+        },
+        {
+          "id": "r6",
+          "user_id": "u105",
+          "text": "Service was a bit slow, but the milkshakes were fantastic! The patty melt was just okay.",
+          "rating": 3
+        }
+      ]
+    }
+
+    {
+      "id": "b4",
+      "name": "Sushi Garden",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "101 Sushi Way",
+        "city": "Mountain View",
+        "state": "CA",
+        "zip_code": "94040"
+      },
+      "tags": ["Japanese", "Sushi"],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r7",
+          "user_id": "u106",
+          "text": "Fresh sushi and sashimi, with a good variety of rolls. The miso soup was a bit too salty for my taste.",
+          "rating": 4
+        },
+        {
+          "id": "r8",
+          "user_id": "u107",
+          "text": "The chirashi bowl was delicious and the fish was fresh. The service was a bit slow, but the food was worth the wait.",
+          "rating": 5
+        }
+      ]
+    }
+
+    {
+      "id": "b5",
+      "name": "Taco Town",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address":
+        "867 Taco Street",
+        "city": "San Jose",
+        "state": "CA",
+        "zip_code": "95134"
+      },
+      "tags": ["Mexican", "Tacos"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r9",
+          "user_id": "u108",
+          "text": "The tacos were delicious and the salsa bar had a good variety. The service was quick and friendly.",
+          "rating": 4
+        },
+        {
+          "id": "r10",
+          "user_id": "u109",
+          "text": "The burritos were huge and filling. The horchata was a bit too sweet for my taste.",
+          "rating": 3
+        }
+      ]
+    },
+
+    {
+      "id": "b6",
+      "name": "Curry Corner",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "321 Curry Lane",
+        "city": "Cupertino",
+        "state": "CA",
+        "zip_code": "95014"
+      },
+      "tags": ["Indian", "Curry"],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r11",
+          "user_id": "u110",
+          "text": "The chicken tikka masala was delicious and the naan was freshly baked. The service was friendly and attentive.",
+          "rating": 5
+        },
+        {
+          "id": "r12",
+          "user_id": "u111",
+          "text": "The lamb curry was flavorful and the mango lassi was refreshing. The portions were generous and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b7",
+      "name": "Pho Place",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "543 Pho Street",
+        "city": "Milpitas",
+        "state": "CA",
+        "zip_code": "95035"
+      },
+      "tags": ["Vietnamese", "Pho"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r13",
+          "user_id": "u112",
+          "text": "The pho was flavorful and the broth was rich. The spring rolls were fresh and the service was quick.",
+          "rating": 4
+        },
+        {
+          "id": "r14",
+          "user_id": "u113",
+          "text": "The banh mi was delicious and the portion size was generous. The service was friendly and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b8",
+      "name": "Pizza Place",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "678 Pizza Avenue",
+        "city":
+        "Fremont",
+        "state": "CA",
+        "zip_code": "94536"
+      },
+      "tags": ["Italian", "Pizza"],
+      "rating": 3.5,
+      "reviews": [
+        {
+          "id": "r15",
+          "user_id": "u114",
+          "text": "The pizza was cheesy and delicious. The garlic knots were a bit too greasy for my taste.",
+          "rating": 4
+        },
+        {
+          "id": "r16",
+          "user_id": "u115",
+          "text": "The calzone was huge and filling. The service was friendly and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    },
+
+    {
+      "id": "b9",
+      "name": "Bakery Cafe",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "987 Bakery Street",
+        "city": "Santa Clara",
+        "state": "CA",
+        "zip_code": "95050"
+      },
+      "tags": ["Cafe", "Bakery"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r17",
+          "user_id": "u116",
+          "text": "The pastries were delicious and the coffee was freshly brewed. The service was friendly and the ambiance was cozy.",
+          "rating": 4
+        },
+        {
+          "id": "r18",
+          "user_id": "u117",
+          "text": "The croissants were flaky and buttery. The service was quick and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b10",
+      "name": "Dumpling House",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "234 Dumpling Road",
+        "city": "Sunnyvale",
+        "state": "CA",
+        "zip_code": "94085"
+      },
+      "tags": ["Chinese", "Dumplings"],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r19",
+          "user_id": "u118",
+          "text": "The xiao long bao was delicious and the dumplings were freshly made. The service was friendly and the prices were reasonable.",
+          "rating": 5
+        },
+        {
+          "id": "r20",
+          "user_id": "u119",
+          "text": "The potstickers were crispy and flavorful. The service was quick and the portions were generous.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b11",
+      "name": "Salad Bar",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "345 Salad Avenue",
+        "city": "Cupertino",
+        "state": "CA",
+        "zip_code": "95014"
+      },
+      "tags": ["Healthy", "Salads"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r21",
+          "user_id": "u120",
+          "text": "The salads were fresh and the toppings were plentiful. The service was quick and the prices were reasonable.",
+          "rating": 4
+        },
+        {
+          "id": "r22",
+          "user_id": "u121",
+          "text": "The salad bar had a good variety of options. The service was friendly and the ambiance was cozy.",
+          "rating": 4
+        }
+      ]
+    },
+
+    {
+      "id": "b12",
+      "name": "Sandwich Shop",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "876 Sandwich Street",
+        "city": "Mountain View",
+        "state": "CA",
+        "zip_code": "94040"
+      },
+      "tags": ["Fast Food", "Sandwiches"],
+      "rating": 3.5,
+      "reviews": [
+        {
+          "id": "r23",
+          "user_id": "u122",
+          "text": "The sandwiches were fresh and the ingredients were high quality. The service was quick and the prices were reasonable.",
+          "rating": 4
+        },
+        {
+          "id": "r24",
+          "user_id": "u123",
+          "text": "The pastrami sandwich was delicious and the portions were generous. The service was friendly and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b13",
+      "name": "Ice Cream Parlor",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "654 Ice Cream Street",
+        "city": "Santa Clara",
+        "state": "CA",
+        "zip_code": "95050"
+      },
+      "tags": ["Dessert", "Ice Cream"],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r25",
+          "user_id": "u124",
+          "text": "The ice cream was creamy and delicious. The service was friendly and the prices were reasonable.",
+          "rating": 5
+        },
+        {
+          "id": "r26",
+          "user_id": "u125",
+          "text": "The sundaes were huge and the toppings were plentiful. The service was quick and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b14",
+      "name": "Bistro",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "543 Bistro Avenue",
+        "city": " Sunnyvale",
+        "state": "CA",
+        "zip_code": "94085"
+      },
+      "tags": ["French", "Dine-In"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r27",
+          "user_id": "u126",
+          "text": "The escargot was delicious and the coq au vin was flavorful. The service was friendly and the ambiance was cozy.",
+          "rating": 4
+        },
+        {
+          "id": "r28",
+          "user_id": "u127",
+          "text": "The steak frites were cooked to perfection. The service was quick and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    },
+
+    {
+      "id": "b15",
+      "name": "Cafe",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "876 Cafe Street",
+        "city": "Mountain View",
+        "state": "CA",
+        "zip_code": "94040"
+      },
+      "tags": ["Cafe", "Coffee"],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r29",
+          "user_id": "u128",
+          "text": "The coffee was freshly brewed and the pastries were delicious. The service was friendly and the ambiance was cozy.",
+          "rating": 5
+        },
+        {
+          "id": "r30",
+          "user_id": "u129",
+          "text": "The lattes were creamy and the croissants were flaky. The service was quick and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b16",
+      "name": "Noodle House",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "234 Noodle Road",
+        "city": "Sunnyvale",
+        "state": "CA",
+        "zip_code": "94085"
+      },
+      "tags": ["Asian", "Noodles"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r31",
+          "user_id": "u130",
+          "text": "The ramen was flavorful and the noodles were perfectly cooked. The service was quick and the prices were reasonable.",
+          "rating": 4
+        },
+        {
+          "id": "r32",
+          "user_id": "u131",
+          "text": "The pho was delicious and the broth was rich. The service was friendly and the portions were generous.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b17",
+      "name": "Steakhouse",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "345 Steak Avenue",
+        "city": "Cupertino",
+        "state": "CA",
+        "zip_code": "95014"
+      },
+      "tags": ["American", "Steakhouse"],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r33",
+          "user_id": "u132",
+          "text": "The ribeye steak was cooked to perfection and the sides were delicious. The service was friendly and the ambiance was cozy.",
+          "rating": 5
+        },
+        {
+          "id": "r34",
+          "user_id": "u133",
+          "text": "The filet mignon was tender and flavorful. The service was quick and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    },
+
+    {
+      "id": "b18",
+      "name": "Fish Grill",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "654 Fish Street",
+        "city": "Santa Clara",
+        "state": "CA",
+        "zip_code": "95050"
+      },
+      "tags": ["Seafood", "Grill"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r35",
+          "user_id": "u134",
+          "text": "The grilled salmon was delicious and the sides were flavorful. The service was friendly and the prices were reasonable.",
+          "rating": 4
+        },
+        {
+          "id": "r36",
+          "user_id": "u135",
+          "text": "The fish tacos were fresh and the portions were generous. The service was quick and the prices were reasonable.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b19",
+      "name": "Taco Truck",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "543 Taco Avenue",
+        "city": "Milpitas",
+        "state": "CA",
+        "zip_code": "95035"
+      },
+      "tags": ["Mexican", "Tacos"],
+      "rating": 4.5,
+      "reviews": [
+        {
+          "id": "r37",
+          "user_id": "u136",
+          "text": "The tacos were delicious and the salsa had a good kick to it. The service was quick and the prices were reasonable.",
+          "rating": 5
+        },
+        {
+          "id": "r38",
+          "user_id": "u137",
+          "text": "The burritos were huge and filling. The service was friendly and the portions were generous.",
+          "rating": 4
+        }
+      ]
+    }
+
+    {
+      "id": "b20",
+      "name": "Burger Shack",
+      "image_URL": "https://picsum.photos/seed/picsum/200/300",
+      "location": {
+        "address": "876 Burger Street",
+        "city": "Mountain View",
+        "state": "CA",
+        "zip_code": "94040"
+      },
+
+      "tags": ["Fast Food", "Burgers"],
+      "rating": 4,
+      "reviews": [
+        {
+          "id": "r39",
+          "user_id": "u138",
+          "text": "The burgers were juicy and flavorful. The service was quick and the prices were reasonable.",
+          "rating": 4
+        },
+        {
+          "id": "r40",
+          "user_id": "u139",
+          "text": "The fries were crispy and the milkshakes were delicious. The service was friendly and the portions were generous.",
+          "rating": 4
+        }
+      ]
+    }
+    
+
+
