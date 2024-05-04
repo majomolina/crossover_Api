@@ -1,9 +1,10 @@
-import express from 'express';
-import bodyParser from "body-parser";
-import monngoose from 'mongoose';
-import dotenv from 'dotenv';
-import cors from 'cors';
-import router from './routes/routes.js'
+const express= require('express');
+const bodyParser= require("body-parser");
+const monngoose = require('mongoose');
+const dotenv = require('dotenv');
+const cors = require('cors');
+const router = require( './routes/routes.js')
+
 
 const app = express();
 dotenv.config();
@@ -16,12 +17,7 @@ app.use(function(err, req, res, next) {
     });
 const PORT = process.env.PORT || 3008 
 
-monngoose
-    .connect(process.env.DB_CONNECT)
-    .then(() => {
-        console.log('Database is connected')
-    })
-    .catch(err => console.log(err));
+
 
 app.get('/', (req, res) => {
     res.send('Welcome to Mongo DB server')

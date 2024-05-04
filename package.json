@@ -2,7 +2,6 @@
   "name": "travel_wishlist",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node --watch index.js"
